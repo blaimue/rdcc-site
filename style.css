@@ -1,0 +1,194 @@
+/*  
+Theme Name: RDCC 
+Theme URI: http://www.ruthdykeman.org/
+Description: Theme for Ruth Dykeman Children's Center.
+Version: 1.0
+Author: Chris Doyle 
+Author URI: http://www.ruthdykeman.org/
+
+*/
+
+body {
+	color:#3b0f0e;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	background-image:url(images/bg1.gif);
+	background-repeat;repeat;
+}
+
+ul, li {padding:0;margin:0}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+td {
+	vertical-align:top;
+}
+
+li {
+	list-style:none;
+}
+
+/********************************************
+	Header
+*********************************************/
+
+#header {
+	background:#121212;
+	color:#ab8e6e;
+	font-size:9pt;
+}
+
+#header a {
+	color:#ab8e6e;
+}
+
+#header li {
+	margin-right:20px;
+	float:left;
+}
+
+
+/********************************************
+	Sidebar
+*********************************************/
+
+#sidebar {
+	font-size:8pt;
+}
+
+#donateWrapper a:link {text-decoration:none;}
+#donateWrapper a:active {text-decoration:none;}
+#donateWrapper a:visited {text-decoration:none;}
+#donateWrapper a:hover {text-decoration:none;}
+
+#donate a {
+	color:#b12a14;
+	font-size:20pt;
+	font-family:"Times New Roman", serif;
+}
+
+#donateSub a {
+	color:#3b0f0e;
+	font-size:10pt;
+}
+
+#donateExplain a {
+	color:#3b0f0e;
+	font-style:italic;
+	font-size:8pt;
+	margin-top:4px;
+}
+
+
+/********************************************
+	Main
+*********************************************/
+
+#main {
+	font-size:11px;
+	line-height:14px;
+	padding-right:20px;
+}
+
+#main h1 {
+	color:#b12a14;
+	font-size:22px;
+	line-height:22px;
+}
+
+#main h2 {
+	font-size:16px;
+	line-height:16px;
+}
+
+#main h3 {
+	font-size:13px;
+	line-height:13px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+
+#main p {
+	margin-top:0px;
+}
+
+#main .act {
+	color:#b12a14;
+	font-size:10pt;
+	background:#dfdbcf;
+	padding:6px;
+}
+
+
+/********************************************
+	Footer
+*********************************************/
+
+#footer {
+	color:#FFFFFF;
+	background:#5a141e;
+}
+
+#footer h1 {
+	color:#d07518;
+	font-size:10pt;
+	margin-bottom:3px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+#footer h1 a {
+	color:#d07518;
+	font-size:10pt;
+}
+
+#footer a {
+	color:#FFF;
+	font-size:8pt;
+}
+
+#footer td {
+	padding:8px;
+	padding-left:1px;
+}
+
+#footer input {
+	display:block;
+}
+
+#googleEntry {
+	width:178px;
+	background:#CCC;
+}
+
+#googleSubmit {
+	border:0px;
+	background:#5a141e;
+	color:#FFF;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+#googleSubmit:hover {
+	text-decoration:underline;
+}
+
+#copyright {
+	background:#000;
+	font-family:'Times New Roman',serif;
+	font-size:9pt;
+	color:#FFF;
+}
+
+#copyright a {
+	color:#d07518;
+	font-size:9pt;
+}
+
+
+
+
